@@ -7,7 +7,7 @@ charset = "abcdefghijklmnopqrstuvwxyz"
 #testChars = "abcdefghijklmnopqrstuvwxyz0987654321"
 
 
-pw = "multi" #input("Enter Password: ")
+pw = input("Enter Password: ")
 pwList = list(pw)
 maxPwLen = len(pwList)
 printCount = 0
